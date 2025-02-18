@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecommerce website</title>
+    <link rel="stylesheet" href="web-list.css"> 
+    <link rel="stylesheet" href="checkoutPage.css"> 
+    <link rel="stylesheet" href="cart.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div id="first-layer">
+            <div id="logo">
+                <img src="public/logo-colored.svg"></div>
+                <input type="search" id="movie" name="q" placeholder="Search" />
+                <select id="option" >
+                    <option value>All category</option>
+                </select>
+                <button class="btn1">Search</button>
+                <div class="icons">
+            <img src="Profile.png" href="#">
+            <img src="Message.png" href="#">
+            <img src="Orders.png" href="#">
+            <a href="http://127.0.0.1:5500/cart.html"> <img src="Cart.png" href="#"></a>
+        </div>
+            </div> 
+        
+                        </header>
+                            <div id="navbar">
+    <!-- <i class="fa-solid fa-list-ul" ></i> -->
+    <img src="Vector.png"><a href="http://127.0.0.1:5500/web-list.html" class="navbar"><h4>All Category</h4></a>
+<h4 href="#" class="navbar">Hot offers</h4>
+<h4 href="#" class="navbar">Gift boxes</h4>
+<h4 href="#" class="navbar">Projects</h4>
+<h4 href="#" class="navbar">Menu Item</h4>
+<h4 href="#" class="navbar">Help</h4>
+<img src="arrow.png">
+<!-- <select style="border: 0;"></select> -->
+<div id="leftside-Navopt">
+<h4 href="#" id="leftside=Navopt"> English,USD</h4>
+<select style="border: 0; margin-right: 30px; "></select>
+<h4 href="#">Ship to</h4>
+<img src="public\flags\germany.png" class="flag5">
+<select style="border: 0; margin-right: 30px; "></select></select></div></div>
+        
+                       
+                          
+                        
+        
+                        <main>
+                           <form action="#" class="form">
+                            <div class="progressbar">
+                                <div class="progress" id="progress"></div>
+                                
+                                <div class="progress-step progress-step-active"
+                                  data-title="Shipment"></div>
+                                <div class="progress-step" data-title="Bill"></div>
+                                <div class="progress-step" data-title="Payment"></div>
+                                <div class="progress-step" data-title="Order"></div>
+                              </div>
+                            <div class="form-step form-step-active">
+                                <h1 class="heading">Shipping Information </h1>
+    <div class="input-group">
+        <label for="Name"> Name</label><br>
+        <input type="text" id="username"/>
+    </div>
+    <div class="input-group">
+        <label for="address">Address </label><br>
+        <input type="address" id="address"/>
+    </div>
+    <div class="input-group">
+        <label for="city">City</label><br>
+        <input type="text" id="city"/>
+    </div>
+    <div class="input-group">
+        <label for="state">State</label><br>
+        <input type="text" id="state"/>
+    </div>
+    <div class="input-group">
+        <label for="zipcode"> Zip code</label><br>
+        <input type="number" id="zipcode"/>
+    </div>
+    <div class="input-group">
+        <label for="phonenumber">Phone Number</label><br>
+        <input type="number" id="number"/>
+    </div>
+<div class="Nextbtn btn-next shipbtn">
+    <a href="#">Next</a>
+</div>
+</div>
+<!-- 
+billing -->
+
+<div class="form-step">
+    <h1 class="heading">Billing</h1>
+<div class="input-group">
+<label for="Name"> Name</label><br>
+<input type="text" id="username"/>
+</div>
+<div class="input-group">
+<label for="address">Address </label><br>
+<input type="address" id="address"/>
+</div>
+<div class="input-group">
+<label for="city">City</label><br>
+<input type="text" id="city"/>
+</div>
+<div class="input-group">
+<label for="state">State</label><br>
+<input type="text" id="state"/>
+</div>
+<div class="input-group">
+<label for="zipcode"> Zip code</label><br>
+<input type="number" id="zipcode"/>
+</div>
+<div class="input-group">
+<label for="phonenumber">Phone Number</label><br>
+<input type="number" id="number"/>
+</div>
+<div class="Nextbtn btn-prev bill">
+    <a href="#">Previous</a></div>
+    <div class="Nextbtn btn-next">  
+<a href="#">Next</a></div>
+</div>
+
+<!-- payment -->
+
+<div class="form-step">
+    <h1 class="heading">Payment Details</h1>
+<div class="input-group">
+<label for="Name"> Name</label><br>
+<input type="text" id="username"/>
+</div>
+<div class="input-group">
+<label for="Card Number">Card Number</label><br>
+<input type="Number" id="Card Number"/>
+</div>
+<div class="input-group">
+<label for="Expiration Date">Expiation Date</label><br>
+<input type="date" id="Expiration Date"/>
+</div>
+<div class="input-group">
+<label for="Security Code">Security Code</label><br>
+<input type="number" id="Security Code"/>
+</div>
+<div class="Nextbtn btn-prev">
+    <a href="#">Previous</a></div>
+    <div class="Nextbtn btn-next">  
+<a href="#">Next</a></div>
+</div>
+
+<!-- order -->
+
+<div class="form-step">
+    <h1 class="heading">Order Review</h1>
+    <div id="whole">
+        <div id="cart">
+            
+<div class="carts">
+<img src="public/cloth/1.jpg">
+            <div class="cart-detail">
+            
+            <h4>T-shirts with multiple colors, for men and lady</h4>
+            <p>Size: medium, Color: blue,  Material: Plastic
+                <br>Seller: Artel Market</p>
+                <div class="buton">
+                <button class="remove-btn">Remove</button>
+                <button class="save-btn">Save for later</button></div>
+        </div>
+<div class="quantity">
+<h3>$78.99</h3>
+<select class="select">
+    <option>
+        Qty: 9
+    </option>
+</select>
+</div>
+    </div>
+
+    <div class="carts">
+        <img src="public/cloth/5.jpg">
+                    <div class="cart-detail">
+                    
+                    <h4>T-shirts with multiple colors, for men and lady</h4>
+                    <p>Size: medium, Color: blue,  Material: Plastic
+                        <br>Seller: Best factory LLC</p>
+                        <div class="buton">
+                        <button class="remove-btn">Remove</button>
+                        <button class="save-btn">Save for later</button></div>
+                </div>
+    <div class="quantity">
+        <h3>$39.00</h3>
+        <select class="select">
+            <option>
+                Qty: 3
+            </option>
+        </select>
+    </div>
+            </div>
+
+
+            <div class="carts">
+                <img src="public/interior/6.jpg">
+                            <div class="cart-detail">
+                            
+                            <h4>T-shirts with multiple colors, for men and lady</h4>
+                            <p>Size: medium, Color: blue,  Material: Plastic
+                                <br>Seller: Artel Market</p>
+                                <div class="buton">
+                                <button class="remove-btn">Remove</button>
+                                <button class="save-btn">Save for later</button></div>
+                        </div>
+            <div class="quantity">
+                <h3>$170.50</h3>
+                <select class="select">
+                    <option>
+                        Qty: 1
+                    </option>
+                </select>
+            </div>
+                    </div>
+                    <div id="back">
+                        <button id="back-btn"><img src="arrow_back.png">  Back to shop</button>
+                    <button id="remove">Remove all</button> 
+                                            </div>
+        </div>
+        <div id="pay">
+        <div id="coupon">
+            <p id="coupon-head">Have a coupon?</p>
+            <input placeholder="Add coupon">
+            <button>
+                Apply
+            </button>
+
+        </div>
+        <div id="payment">
+            <div class="first">
+            <p class="firstp">Subtotal:</p><span id="fbill">$1403.97</span></div>
+            <div class="first">
+            <p class="firstp">Discount:</p><span id="sbill">- $60.00</span></div>
+           <div class="first">
+            <p class="firstp">Tax:</p><span id="tbill">+ $14.00</span></div>
+            <div class="second">
+            <h3 id="secondp">Total:</h3><span id="stbill">$1357.97</span></div>
+            <button id="payment-btn">Checkout</button><br>
+            <div id="payment-opt">
+                <img src="payment.png">
+                <img src="Logo.png">
+                <img src="payment2.png">
+                <img src="payment3.png">
+                <img src="payment4.png">
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="Nextbtn btn-prev">
+            <a href="#">Previous</a></div>
+    <div class="Nextbtn submit">  
+<a href="#">Submit</a></div>
+</div>
+
+</form>
+                            </main>
+                            <script src="checkoutPage.js"></script>
+                            </body>
+                            </html>

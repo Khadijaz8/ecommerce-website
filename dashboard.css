@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+
+}
+
+.Nextbtn{
+    color: #0163f7;
+    background-color:white ;
+    border: 1px solid lightgray;
+padding: 10px;
+border-radius: 5%;
+cursor: pointer;
+margin:10px;
+font-size: medium;
+}
+.Nextbtn:hover{
+    transform: scale(1.1);
+    transition: transform 0.1s ease-in-out;
+}
+#updateForm{
+    display:none;
+    /* visibility: hidden; */
+    
+    border-radius: 5%;
+       /* Align form content vertically in the center (inside the form) */
+    padding: 10px;
+    margin: 10px;
+   
+}
+.navbar{
+    color:black;
+  }
+.input-group{
+    padding: 5px;
+  }
+  label{
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .input-group input{
+    margin:10px;
+    padding: 10px;
+       border-radius: 5%;
+  }
+
+.orderSection{
+
+}
+.previousOrders{
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    padding: 20px;
+    text-align: left;
+    border-radius: 5px;
+    margin:20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+#Welcome{
+    color:#0163f7;
+ margin:10px;
+}
+main{
+    margin:10px;
+}
+#update{
+    margin-bottom: 50px;
+}

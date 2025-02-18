@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Store</title>
+    <link rel="stylesheet" href="checkoutPage.css"> 
+    <link rel="stylesheet" href="login.css"> 
+</head>
+<body>
+    
+    <div id="navbar1">
+        <img src="logo-colored.png">
+        <!-- <i class="fa-solid fa-list-ul" ></i> -->
+        <a href="http://127.0.0.1:5500/web-list.html" class="navbar"><h4>All Category</h4></a>
+    <h4 href="#" class="navbar">Hot offers</h4>
+    <h4 href="#" class="navbar">Gift boxes</h4>
+    <h4 href="#" class="navbar">Projects</h4>
+    <h4 href="#" class="navbar">Menu Item</h4>
+    <h4 href="#" class="navbar">Help</h4>
+  
+    <!-- <select style="border: 0;"></select> -->
+   </div>
+    <main>
+           <form action="#" class="login-form">
+        
+        <div class="form-step form-step-active">
+        <h1 class="heading">Log In to your account.</h1>
+       
+               <div class="input-group">
+        <label for="emailId">Email Id</label>
+ <input type="email" id="emailId" placeholder="Enter your email id" name="emailId" required/>
+</div>
+ <div class="input-group">
+    <label for="password">Password</label><br>
+    <input type="password" id="password"  placeholder="Enter your pasword" name="password" required/>
+</div>
+
+<div class="Nextbtn ">
+    <button id="logIn">Log In</button>
+
+ </div>
+ <div class="Nextbtn btn-next register">  
+    <a href="#">Register</a></div>
+ </br>
+    <br>
+<div id="forgot">
+<a href="#" id="forgot">Forgot Password</a>
+</div>
+        </div>
+        
+
+
+        <!-- Register -->
+
+        <div class="form-step">
+            <h1 class="heading">Registeration</h1>
+        <div class="input-group">
+        <label for="Name" > Name</label><br>
+        <input type="text" id="username" placeholder="Enter your name" name="name"/>
+        </div>
+        <div class="input-group">
+            <label for="phone-number" >Phone Number</label><br>
+            <input type="number" id="number" placeholder="Enter your phone number" name="phone-number"/>
+            </div>
+
+            <div class="input-group">  
+        <label for="emailId">Email Id</label>
+ <input type="email" id="emailId" placeholder="Enter your email id" name="emailId" required />
+</div>
+<div class="input-group">
+    <label for="password">Password</label><br>
+    <input type="password" id="password"  placeholder="Enter your pasword" name="password" required/>
+</div>
+
+<div class="input-group">
+    <label for="password">Confrim Password</label><br>
+    <input type="password" id="Confirm-password"  placeholder="Rewrite your pasword"  name="Confirm-password" required/>
+</div>
+        
+     
+       
+            <div class="Nextbtn Submit">  
+        <a href="http://127.0.0.1:5500/index.html">Submit</a></div>
+        </div>
+    </form>
+    <p id="errorMessage" style="color: red;"></p>
+    </main>
+    <script src="login.js"></script>
+    <script src="checkoutPage.js"></script>
+    <script src="dashboard.js"></script>
+</body>
+
+</html>

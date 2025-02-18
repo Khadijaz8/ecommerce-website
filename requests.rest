@@ -1,0 +1,11 @@
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtoYWRpamFpamF6MUBnbWFpbC5jb20iLCJpYXQiOjE3Mzk1NjE0MjF9.Y9NT2KqvMQ5GWFL1LqqFlBg6MNcbv8KD66fT3XGpvx0
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "emailId": "khadijaijaz1@gmail.com",
+    "password":"khalid1"
+}
